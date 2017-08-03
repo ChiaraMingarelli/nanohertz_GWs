@@ -15,6 +15,7 @@ when a GW sky contains a detectable GW source, it is saved to a text file in thi
 
 ### detection_curves:
 These are the predicted IPTA curves for 15, 20 and 25 year datasets. Each file has a descriptive name. For example, cw_simulation_Ared_0_dp_0.5_fap_0.001_T_15.txt is the continuous GW wave simulation with zero red noise (Ared_0), a 50% detection probability (dp_0.5), false alarm probability of 0.001 (fap_0.001) for a 15 year dataset (T_15).
+The code used to make these curves was developed by Justin Ellis, and is available here, https://github.com/jellis18/time_to_detection.
 
 ### galaxy_data
 This contains the galaxy catalog made from 2MASS, together with a list of galaxies which had measured SMBHs. These masses are used instead of M-Mbulge.
