@@ -5,9 +5,9 @@ Please cite Mingarelli et al. (2017) when using this code, as well as 10.5281/ze
 
 There are 7 directories in this repository: codes, detectedSkies, detection_curves, galaxy_data, gw_skies, healpix_maps and scatter_maps.
 
-Brief description of directories
+## Brief description of directories
 
-## codes:
+### codes:
 Here you will find ipython notebooks which walk you through creating gravitational wave skies, with each step clearly indicated in the file name. Example output is given in the example_sky directory.
 
 ### detectedSkies:
