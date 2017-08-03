@@ -6,16 +6,16 @@ There are 7 directories in this repository: codes, detectedSkies, detection_curv
 
 Brief description of directories
 
-codes:
+## codes:
 Here you will find ipython notebooks which walk you through creating gravitational wave skies, with each step clearly indicated in the file name. Example output is given in the example_sky directory.
 
-detectedSkies:
+## detectedSkies:
 when a GW sky contains a detectable GW source, it is saved to a text file in this directory. An example of what this file looks like is given here, in detected_skies.txt
 
-detection_curves:
+## detection_curves:
 These are the predicted IPTA curves for 15, 20 and 25 year datasets. Each file has a descriptive name. For example, cw_simulation_Ared_0_dp_0.5_fap_0.001_T_15.txt is the continuous GW wave simulation with zero red noise (Ared_0), a 50% detection probability (dp_0.5), false alarm probability of 0.001 (fap_0.001) for a 15 year dataset (T_15).
 
-*galaxy_data*
+## galaxy_data
 This contains the galaxy catalog made from 2MASS, together with a list of galaxies which had measured SMBHs. These masses are used instead of M-Mbulge.
 
 gw_skies:
