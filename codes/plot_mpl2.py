@@ -579,6 +579,6 @@ def outline_text(ax):
         warnings.warn("This version of matplotlib does not support path effects.")
     else:
         # Otherwise, add the path effects.
-        effects = [patheffects.withStroke(linewidth=2, foreground='w')]
+        effects = [patheffects.withStroke(linewidth=.5, foreground='w')]
         for artist in ax.findobj(text.Text):
             artist.set_path_effects(effects)
